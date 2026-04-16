@@ -1,5 +1,5 @@
 # Gram-Schmidt
-This Octave Script will calculate a matrix representing column vectors spanning a normalized, orthonormal basis from an original matrix containing non-orthonormal basis vectors.
+This Octave Script will calculate a matrix representing column vectors of an orthonormal basis from an original matrix containing non-orthonormal basis vectors.
 
 Instead of using basis vectors separately, the vectors need to be combined as column vectors in a matrix (VectorMatrix) in order to compute the Gram-Schmidt formula.  The code will then draw the columns out as individual vectors (Vector) and compute the formula accordingly, adding the result to the analogous matrix (ResultMatrix) at the end.
 
